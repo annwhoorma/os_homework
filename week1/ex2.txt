@@ -1,0 +1,349 @@
+    1  sudo apt update
+    2  sudo apt upgrade
+    3  sudo nano /etc/apt/sources.list
+    4  sudo apt-get install google-chrome-stable
+    5  wget https://dl-ssl.google.com/linux/linux_signing_key.pub
+    6  wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | Sudo apt-key add -
+    7  sudo dpkg -i /home/anna/Downloads/google-chrome-stable_current_amd64.deb
+    8  cd Downloads
+    9  sudo apt install google-chrome-stable_current_amd64.deb
+   10  cd Downloads
+   11  sudo dpkg -i code_1.36.1-1562627527_amd64.deb
+   12  cd Downloads
+   13  sudo dpkg -i code_1.36.1-1562627527_amd64.deb
+   14  sudo apt-get install -f
+   15  cd ~
+   16  fdisk -l
+   17  sudo fdisk -l
+   18  fdisk /dev/sdb
+   19  sudo fdisk /dev/sdb
+   20  cd Documents
+   21  cd attempts
+   22  g++ -o khaled khaled.cpp
+   23  g++ -o khaled khaled.cpp
+   24  g++ -o khaled khaled.cpp
+   25  ./khaled
+   26  ./khaled
+   27  ./khaled
+   28  g++ -o khaled khaled.cpp && ./khaled
+   29  g++ -o khaled khaled.cpp && ./khaled
+   30  g++ -o khaled khaled.cpp && ./khaled
+   31  g++ -o khaled khaled.cpp && ./khaled
+   32  g++ -o khaled khaled.cpp && ./khaled
+   33  g++ -o khaled khaled.cpp && ./khaled
+   34  g++ -o khaled khaled.cpp && ./khaled
+   35  5 3 5 18 4
+   36  3 5 4
+   37  3 5 4
+   38  g++ -o khaled khaled.cpp && ./khaled
+   39  g++ -o khaled khaled.cpp && ./khaled
+   40  g++ -o khaled khaled.cpp && ./khaled
+   41  g++ -o khaled khaled.cpp && ./khaled
+   42  g++ -o khaled khaled.cpp && ./khaled
+   43  g++ -o khaled khaled.cpp && ./khaled
+   44  g++ -o khaled khaled.cpp && ./khaled
+   45  sudo fdisk -l
+   46  sudo fdisk /dev/sdb
+   47  sudo fdisk /dev/sdb
+   48  sudo fdisk -l
+   49  mkfs.fat -F 32 /dev/sdb1
+   50  sudo mkfs.fat -F 32 /dev/sdb1
+   51  ls Downloads/
+   52  cd Downloads/
+   53  cd Microsoft\ Windows\ 10\ Pro\ x64\ en-US\ 1809\ -\ KMiSO/
+   54  cd Downloads/
+   55  cd Microsoft\ Windows\ 10\ Pro\ x64\ en-US\ 1809\ -\ KMiSO/
+   56  cp ./X.iso /dev/sdb1
+   57  sudo cp ./X.iso /dev/sdb1
+   58  ls /dev/sdb1
+   59  sudo ls /dev/sdb1
+   60  sudo ls /dev/sdb1
+   61  sudo ls /dev/sdb1
+   62  ls /dev/sdb1
+   63  ls /dev
+   64  ls /dev/sdb1
+   65  ls /dev/sdb
+   66  sudo fdisk /dev/sdb
+   67  blkfs
+   68  sudo blkfs
+   69  sudo lsblk -fs
+   70  sudo lsblk --fs
+   71  fdisk /dev/sdb
+   72  sudo fdisk /dev/sdb
+   73  fdisk -l
+   74  sudo fdisk -l
+   75  sudo fdisk -l
+   76  sudo fdisk /dev/sdb
+   77  sudo fdisk /dev/sdb
+   78  mkfs.fat -F 32 /dev/sdb1
+   79  sudo mkfs.fat -F 32 /dev/sdb1
+   80  cd Downloads/
+   81  cd Downloadscd attempts
+   82  cd attempts
+   83  -cd 
+   84  /root
+   85  cd root
+   86  cd home
+   87  -cd
+   88  cd-
+   89  `cd
+   90  ~cd
+   91  cd Documents
+   92  cd attempts
+   93  g++ -o khaled khaled.cpp && ./khaled
+   94  g++ -o khaled khaled.cpp && ./khaled
+   95  g++ -o khaled khaled.cpp && ./khaled
+   96  g++ -o khaled khaled.cpp && ./khaled
+   97  g++ -o khaled khaled.cpp && ./khaled
+   98  g++ -o khaled khaled.cpp && ./khaled
+   99  g++ -o khaled khaled.cpp && ./khaled
+  100  g++ -o khaled khaled.cpp && ./khaled
+  101  g++ -o khaled khaled.cpp && ./khaled
+  102  g++ -o khaled khaled.cpp && ./khaled
+  103  g++ -o khaled khaled.cpp && ./khaled
+  104  g++ -o khaled khaled.cpp && ./khaled
+  105  g++ -o khaled khaled.cpp && ./khaled
+  106  g++ -o khaled khaled.cpp && ./khaled
+  107  g++ -o khaled khaled.cpp && ./khaled
+  108  g++ -o khaled khaled.cpp && ./khaled
+  109  g++ -o khaled khaled.cpp && ./khaled
+  110  g++ -o khaled khaled.cpp && ./khaled
+  111  g++ -o khaled khaled.cpp && ./khaled
+  112  g++ -o khaled khaled.cpp && ./khaled
+  113  g++ -o khaled khaled.cpp && ./khaled
+  114  g++ -o khaled khaled.cpp && ./khaled
+  115  g++ -o khaled khaled.cpp && ./khaled
+  116  g++ -o khaled khaled.cpp && ./khaled
+  117  g++ -o khaled khaled.cpp && ./khaled
+  118  g++ -o khaled khaled.cpp && ./khaled
+  119  g++ -o khaled khaled.cpp && ./khaled
+  120  5 3 5 18 4
+  121  3 5 4
+  122   */
+  123  #include <iostream>
+  124  #include <list>
+  125  #include <iterator>
+  126  #include <algorithm>
+  127  #include <vector>
+  128  using namespace std;
+  129  int shit(int, int, int, int);
+  130  void erase_mom(int);
+  131  list<int> grades1;
+  132  int grades2[1000];
+  133  list<int> result;
+  134  int main(){
+  135      int plan, done, max_grade, classroom, mom;
+  136      int sum_marks, t, counter_before, counter_after;
+  137      sum_marks = 0; counter_before = 0; counter_after = 0;
+  138      cin >> plan >> done >> max_grade >> classroom >> mom;
+  139      for (int i = 1; i <= done; i++){
+  140          cin >> t;
+  141          if (t < mom && ++counter_before > plan/2){
+  142              cout << "-1";
+  143              return 0;
+  144          }
+  145          if (t > mom && ++counter_after > plan/2){
+  146              cout << "-1";
+  147              return 0;
+  148          }
+  149          grades1.push_back(t);
+  150          sum_marks += t;
+  151      }
+  152      if (plan - done > classroom - sum_marks || mom > max_grade){
+  153          cout << "-1";
+  154          return 0;
+  155      } 
+  156      if (shit(plan, mom, sum_marks, classroom) == 1)
+  157          for (list<int>::iterator it = result.begin(); it != result.end(); it++){
+  158              cout << *it << " ";
+  159          }
+  160      else
+  161          cout << "-1";
+  162      return 0;
+  163  }
+  164  int shit(int plan, int mom, int sum, int classroom){
+  165      if (erase_mom(mom) == -1){
+  166          grades[plan/2] = mom;
+  167          result.push_back(mom);
+  168          sum+=mom;
+  169      }
+  170      int before = 0; int after = plan/2 + 1;
+  171      for (list<int>::iterator it  = grades1.begin(); it != grades1.end(); it++){
+  172          if (*it <= mom)
+  173              grades2[before++] = *it;
+  174          else
+  175              grades2[after++] = *it;
+  176      }
+  177      for (int i = before; i < plan/2; i++){
+  178          grades2[i] = 1;
+  179          result.push_back(1);
+  180          sum++;
+  181      }
+  182      for (int i = after; i < plan; i++){
+  183          grades2[i] = mom;
+  184          result.push_back(mom);
+  185          sum+=mom;         
+  186      }
+  187      if (sum < classroom)
+  188          return 1;
+  189      return -1;
+  190  }
+  191  int erase_mom(int mom){
+  192      for (list<int>::iterator it = grades1.begin(); it != grades1.end(); it++)
+  193          if (*it == mom){
+  194              grades1.erase(it);
+  195              grades2[plan/2] = mom;
+  196              return 0;
+  197          }
+  198      return -1;
+  199  cd Downloads
+  200  cd attempts
+  201  cd Documents
+  202  cd attempts
+  203  g++ -o khaled khaled.cpp && ./khaled
+  204  g++ -o khaled khaled.cpp && ./khaled
+  205  5 3 5 18 4
+  206  3 5 4
+  207   */
+  208  #include <iostream>
+  209  #include <list>
+  210  #include <iterator>
+  211  #include <algorithm>
+  212  #include <vector>
+  213  using namespace std;
+  214  int shit(int, int, int, int);
+  215  int erase_mom(int, int);
+  216  list<int> grades1;
+  217  int grades2[1000];
+  218  list<int> result;
+  219  int main(){
+  220      int plan, done, max_grade, classroom, mom;
+  221      int sum_marks, t, counter_before, counter_after;
+  222      sum_marks = 0; counter_before = 0; counter_after = 0;
+  223      cin >> plan >> done >> max_grade >> classroom >> mom;
+  224      for (int i = 1; i <= done; i++){
+  225          cin >> t;
+  226          if (t < mom && ++counter_before > plan/2){
+  227              cout << "-1";
+  228              return 0;
+  229          }
+  230          if (t > mom && ++counter_after > plan/2){
+  231              cout << "-1";
+  232              return 0;
+  233          }
+  234          grades1.push_back(t);
+  235          sum_marks += t;
+  236      }
+  237      if (plan - done > classroom - sum_marks || mom > max_grade){
+  238          cout << "-1";
+  239          return 0;
+  240      } 
+  241      if (shit(plan, mom, sum_marks, classroom) == 1)
+  242          for (list<int>::iterator it = result.begin(); it != result.end(); it++){
+  243              cout << *it << " ";
+  244          }
+  245      else
+  246          cout << "-1";
+  247      return 0;
+  248  }
+  249  int shit(int plan, int mom, int sum, int classroom){
+  250      if (erase_mom(mom, plan) == -1){
+  251          grades2[plan/2] = mom;
+  252          result.push_back(mom);
+  253          sum+=mom;
+  254      }
+  255      int before = 0; int after = plan/2 + 1; int counter = 0;
+  256      for (list<int>::iterator it  = grades1.begin(); it != grades1.end(); it++){
+  257          if (*it < mom)
+  258              grades2[before++] = *it;
+  259          else if (*it > mom)
+  260              grades2[after++] = *it;
+  261          else
+  262              counter++;
+  263      }
+  264      for (int i = before; i < plan/2 && counter != 0; i++){
+  265          grades2[i] = mom;
+  266          counter--;
+  267      }
+  268      if (counter > 0){
+  269          for (int i = after; i < plan && counter != 0; i++){
+  270              grades2[i] = mom;
+  271              counter--;
+  272          }
+  273      }
+  274      for (int i = before; i < plan/2; i++){
+  275          grades2[i] = 1;
+  276          result.push_back(1);
+  277          sum++;
+  278      }
+  279      for (int i = after; i < plan; i++){
+  280          grades2[i] = mom;
+  281          result.push_back(mom);
+  282          sum+=mom;         
+  283      }
+  284      if (sum < classroom)
+  285          return 1;
+  286      return -1;
+  287  }
+  288  int erase_mom(int mom, int plan){
+  289      for (list<int>::iterator it = grades1.begin(); it != grades1.end(); it++)
+  290          if (*it == mom){
+  291              grades1.erase(it);
+  292              grades2[plan/2] = mom;
+  293              return 0;
+  294          }
+  295      return -1;
+  296  }
+  297  g++ -o khaled khaled.cpp && ./khaled
+  298  g++ -Wall -o khaled khaled.cpp && ./khaled
+  299  g++ -Wall -o khaled khaled.cpp && ./khaled
+  300   sudo dpkg -i Downloads/slack-desktop-4.0.1-amd64.deb
+  301  sude apt-get install -f
+  302  sudo apt-get install -f
+  303  sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386 lib32z1 libbz2-1.0:i386
+  304  sudo yum install zlib.i686 ncurses-libs.i686 bzip2-libs.i686
+  305  sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386 lib32z1 libbz2-1.0:i386
+  306  cd Downloads
+  307  cd android-studio
+  308  cd bin
+  309  ./studio.sh 
+  310  android-studio
+  311  # apt-get install lib32stdc++6 unzip
+  312  # apt-get install lib32stdc++6 unzip
+  313  $ ls
+  314  android-studio-ide-162.3934792-linux.zip 
+  315  cd Downloads
+  316  cd android-studio
+  317  cd bin
+  318  ./studio.sh 
+  319  sudo apt install libc6:i386 libncurses5:i386 libstdc++6:i386 lib32z1 libbz2-1.0:i386
+  320  cd Downloads
+  321  cd android-studio
+  322  cd bin
+  323  ./studio.sh 
+  324  mkdir ~/week1
+  325  cd ~/week`
+  326  cd ~/week1
+  327  cd
+  328  find . -maxdepth 1 -name "*gcc*" -print
+  329  cd bin 
+  330  cd usr
+  331  cd user
+  332  cd bin
+  333  cd usr
+  334  cd ~/usr
+  335  cd /usr
+  336  cd bin
+  337  find . -maxdepth 1 -name "*gcc*" -print
+  338  find . -maxdepth 1 -name "*gcc*" -print | sort | tac
+  339  cd
+  340  find /usr/bin -maxdepth 1 -name "*gcc*" -print | sort | tac > /OS/week1
+  341  find /usr/bin -maxdepth 1 -name "*gcc*" -print | sort | tac > OS/week1
+  342  nano /OS/week1/ex1.txt
+  343  nano /OS/week1/ex1.txt
+  344  nano OS/week1/ex1.txt
+  345  ls OS/week1/ex1.txt 
+  346  ls OS/week1
+  347  find /usr/bin -maxdepth 1 -name "*gcc*" -print | sort | tac > OS/week1/ex1.txt
+  348  nano OS/week1/ex2.txt
+  349  history > OS/week1/ex2.txt
