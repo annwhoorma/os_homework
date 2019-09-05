@@ -1,0 +1,24 @@
+IF ONE SUBSTITUTES EMPTY BODY OF MAIN WITH THIS AND RECOMPILE:
+int main(){
+    head = (Node*)malloc(sizeof(Node));
+    head->value = 5;
+    size = 1;
+    printf("size1: %d\n", size);
+    print_list();
+    insert_node(head);
+    head->next->value = 4;
+    printf("size2: %d\n", size);
+    print_list();
+    delete_node(head);
+    printf("size3: %d\n", size);
+    print_list();
+    return 0;
+}
+
+THEN OUTPUT:
+size1: 1
+print_list(): 5
+size2: 2
+print_list(): 5, 4
+size3: 2
+print_list(): 4
