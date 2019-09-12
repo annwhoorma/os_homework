@@ -1,0 +1,5 @@
+Explanation of ex2_output.txt
+first "chain" in ex2_output.txt is for loop with 3 iterations.
+Very first ex2 is our initial process and a predecessor of every next process. First parents created 3 processes because it started from i = 1 and worked for i = 2, = 3. Its first child started from i = 1, second - from i = 2, third - i = 3. So, since variable i was changing, each new process created less children.
+
+Same concept applies to loop with 5 iterations.

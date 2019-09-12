@@ -1,0 +1,12 @@
+Hello from parent [PID - 2335]
+----------------------------
+Hello from child [PID - 2336]
+----------------------------
+Hello from parent [PID - 2342]
+----------------------------
+Hello from child [PID - 2343]
+----------------------------
+Hello from parent [PID - 2349]
+----------------------------
+Hello from child [PID - 2350]
+----------------------------
