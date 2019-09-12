@@ -1,5 +1,0 @@
-IMPORTANT: for some reason, ex1_output.txt is not filled with output immediately.
-Shell script [ex1.sh] runs the program 10 times and each time new copy of the process is created. It means that overall, we'll have 20 processes (each one of 10 becomes a parent and has a child). Each one of these 20 processes has its own Process ID (PID).
----------------------------
-Details:
-Function fork() return 0 to a child process and a PID of a child process to a parent. Also, returns negative value if creation of a new process was unsuccessful. So, our parent process (program) has a child process, which is identical to a parent. Then, depending on returning value of fork() which was stored in pid, certain message is printed.
