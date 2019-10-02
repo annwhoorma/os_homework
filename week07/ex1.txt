@@ -1,0 +1,30 @@
+ex5  :
+section              size    addr
+.interp                28     680
+.note.gnu.build-id     36     708
+.note.ABI-tag          32     744
+.gnu.hash              28     776
+.dynsym               288     808
+.dynstr               180    1096
+.gnu.version           24    1276
+.gnu.version_r         48    1304
+.rela.dyn             192    1352
+.rela.plt             144    1544
+.init                  27    4096
+.plt                  112    4128
+.text                 533    4240
+.fini                  13    4776
+.rodata                40    8192
+.eh_frame_hdr          52    8232
+.eh_frame             216    8288
+.init_array             8   15848
+.fini_array             8   15856
+.dynamic              480   15864
+.got                   40   16344
+.got.plt               72   16384
+.data                  16   16456
+.bss                    8   16472
+.comment               17       0
+Total                2642
+
+
