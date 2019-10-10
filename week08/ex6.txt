@@ -1,0 +1,1 @@
+We are given that page is 8KB = 8192B = (2^13)B. We need to index them, therefore, we need 13 bits (lower-order) bits for offset. So, we'll have 16-13=3 (upper-order) bits for a virtual page number. It means that we'll be able to have 2^3 = 8 virtual pages. 
