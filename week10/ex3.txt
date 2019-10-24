@@ -1,0 +1,15 @@
+[/week10]$ touch _ex3.txt
+[/week10]$ chmod a-x _ex3.txt //'a-x' - remove execute permission for all
+[/week10]$ ls -l _ex3.txt //checking
+-rw-rw-rw- 1 whoorma users 0 Oct 23 17:24 _ex3.txt
+[/week10]$ chmod 767 _ex3.txt //7 = r+w+e - for user and others only
+[/week10]$ ls -l _ex3.txt
+-rwxrw-rwx 1 whoorma users 0 Oct 23 17:24 _ex3.txt //we see that user and others can execute the the file
+
+//EXPLANATION
+> What does 660 mean?
+- 6 = read + write, 0 = no permission. Therefore, user and group will be able to read and write only, and others will have no permission to do anything with the file.
+> What does 775 mean?
+- 7 = read + write + execute, 5 = read + execute. Therefore, user and group will be able to read and write only, and others will be able to read and execute only.
+> What does 777 mean?
+- 7 = read + write + execute. Therefore, everybody will have access to everything: read, write, execute.

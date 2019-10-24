@@ -1,0 +1,9 @@
+[/week01]$ touch file.txt
+[/week10]$ touch _ex2.txt
+[/week10]$ link ~/Documents/A19/os_homework/week01/file.txt _ex2.txt
+[/week01]$ ls -i file.txt
+1837091 file.txt
+[/week10]$ find ~/Documents/A19/os_homework -inum 1837091 //in week10, so i omitted the path
+./_ex2.txt
+./file.txt
+[/week10]$ find -inum 1837091 -exec rm {} \; //in week10, so i omitted the path
